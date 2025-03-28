@@ -1,0 +1,10 @@
+{{envelopname}}
+{{signeremail}}
+{{signername}}
+{{signersurname}}
+{{signercellphone}}
+{{creatoremail}}
+{{creatorname}}
+{{creatorsurname}}
+{{creatorcellphone}}
+{{emailsubject}}

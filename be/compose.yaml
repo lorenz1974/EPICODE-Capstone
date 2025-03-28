@@ -1,0 +1,42 @@
+services:
+  mysql:
+    image: 'mysql:latest'
+    environment:
+      - 'MYSQL_DATABASE=CapstoneDB'
+      - 'MYSQL_PASSWORD=CapStone2025'
+      - 'MYSQL_USER=dbadmin'
+    ports:
+      - '3306:3306'
+    volumes:
+      - 'C:/Epicode-Capstone/mysqlDB:/var/lib/mysql'
+    networks:
+      - capstone-network
+
+  postgres:
+    image: 'postgres:latest'
+    environment:
+      - 'POSTGRES_DB=CapstoneDB'
+      - 'POSTGRES_PASSWORD=CapStone2025'
+      - 'POSTGRES_USER=dbadmin'
+    ports:
+      - '5432:5432'
+    volumes:
+      - 'C:/Epicode-Capstone/posgresDB:/var/lib/postgresql/data'
+    networks:
+      - capstone-network
+
+  pgadmin:
+    image: 'dpage/pgadmin4'
+    environment:
+      - 'PGADMIN_DEFAULT_EMAIL=l.lione@remoteitalia.com'
+      - 'PGADMIN_DEFAULT_PASSWORD=a'
+      - 'PGADMIN_LISTEN_PORT=80'
+      - 'PGADMIN_SERVER_NAME=CapstonePGAdmin'
+    ports:
+      - '80:80'
+    networks:
+      - capstone-network
+
+networks:
+  capstone-network:
+    driver: bridge

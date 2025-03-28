@@ -1,0 +1,334 @@
+﻿{
+    "Documents": [
+        {
+            "FileId": "5eb08488-02e1-4aa4-8440-d7c57c4c51f9",
+            "DocumentNumber": 1
+        }
+    ],
+    "Name": "{{envelopname}}",
+    "AddDocumentTimestamp": false,
+    "ShareWithTeam": true,
+    "LockFormFieldsOnFinish": false,
+    "LateIdentification": true,
+    "Activities": [
+        {
+            "Action": {
+                "Sign": {
+                    "RecipientConfiguration": {
+                        "ContactInformation": {
+                            "Email": "{{signeremail}}",
+                            "GivenName": "{{signername}}",
+                            "Surname": "{{signersurname}}",
+                            "PhoneNumber": "{{signercellphone}}",
+                            "LanguageCode": "IT"
+                        },
+                        "NotificationChannel": "Email",
+                        "AllowAccessAfterFinish": false,
+                        "IncludedEmailAppLinks": {
+                            "Android": false,
+                            "iOS": false,
+                            "Windows": false
+                        },
+                        "AllowDelegation": false,
+                        "RequireViewContentBeforeFormFilling": false
+                    },
+                    "SequenceMode": "NoSequenceEnforced",
+                    "Elements": {
+                        "Signatures": [
+                            {
+                                "ElementId": "Firma_3b4a3c3d-ecad-bb07-2e29-6e327428629d",
+                                "Required": true,
+                                "DocumentNumber": 1,
+                                "UseExternalTimestampServer": false,
+                                "AllowedSignatureTypes": {
+                                    "ClickToSign": {
+                                        "UseExternalSignatureImage": "Disabled",
+                                        "Preferred": false,
+                                        "StampImprintConfiguration": {
+                                            "DisplayExtraInformation": true,
+                                            "FontName": "Times New Roman",
+                                            "FontSizeInPt": 11,
+                                            "DisplayEmail": true,
+                                            "DisplayIp": true,
+                                            "DisplayName": true,
+                                            "DisplaySignatureDate": true
+                                        }
+                                    },
+                                    "OneTimePassword": {
+                                        "UseExternalSignatureImage": "Disabled",
+                                        "Preferred": false,
+                                        "StampImprintConfiguration": {
+                                            "DisplayExtraInformation": true,
+                                            "FontName": "Times New Roman",
+                                            "FontSizeInPt": 11,
+                                            "DisplayTransactionId": true,
+                                            "DisplayTransactionToken": true,
+                                            "DisplayPhoneNumber": true,
+                                            "DisplayIp": true,
+                                            "DisplayName": true,
+                                            "DisplaySignatureDate": true
+                                        }
+                                    }
+                                },
+                                "FieldDefinition": {
+                                    "Position": {
+                                        "PageNumber": 2,
+                                        "X": 361.0,
+                                        "Y": 414.9
+                                    },
+                                    "Size": {
+                                        "Width": 190.0,
+                                        "Height": 80.0
+                                    }
+                                }
+                            },
+                            {
+                                "ElementId": "Firma_53841554-414c-642a-d6e5-5f4b0db4525b",
+                                "Required": true,
+                                "DocumentNumber": 1,
+                                "UseExternalTimestampServer": false,
+                                "AllowedSignatureTypes": {
+                                    "OneTimePassword": {
+                                        "UseExternalSignatureImage": "Disabled",
+                                        "Preferred": false,
+                                        "StampImprintConfiguration": {
+                                            "DisplayExtraInformation": true,
+                                            "FontName": "Times New Roman",
+                                            "FontSizeInPt": 11,
+                                            "DisplayTransactionId": true,
+                                            "DisplayTransactionToken": true,
+                                            "DisplayPhoneNumber": true,
+                                            "DisplayIp": true,
+                                            "DisplayName": true,
+                                            "DisplaySignatureDate": true
+                                        }
+                                    }
+                                },
+                                "FieldDefinition": {
+                                    "Position": {
+                                        "PageNumber": 3,
+                                        "X": 353.0,
+                                        "Y": 462.9
+                                    },
+                                    "Size": {
+                                        "Width": 190.0,
+                                        "Height": 80.0
+                                    }
+                                }
+                            }
+                        ],
+                        "PredefinedFieldElements": {
+                            "TextFields": [
+                                {
+                                    "ElementId": "Testo statico_68540928-0621-8d73-11cf-ba830ee98cc2",
+                                    "DocumentNumber": 1,
+                                    "Value": "{{signercellphone}}",
+                                    "FieldDefinition": {
+                                        "TextFormat": {
+                                            "TextColor": "#000000",
+                                            "FontSizeInPt": 11.0,
+                                            "FontName": "Calibri",
+                                            "Bold": false,
+                                            "Italic": false,
+                                            "TextAlign": "Left"
+                                        },
+                                        "Position": {
+                                            "PageNumber": 1,
+                                            "X": 129.0,
+                                            "Y": 640.9
+                                        },
+                                        "Size": {
+                                            "Width": 58.0,
+                                            "Height": 15.0
+                                        }
+                                    }
+                                }
+                            ],
+                            "EmailFields": [
+                                {
+                                    "ElementId": "E-mail_2ffee3e3-a7a3-de25-10d1-68cfff89a1b2",
+                                    "DocumentNumber": 1,
+                                    "FieldDefinition": {
+                                        "TextFormat": {
+                                            "TextColor": "#000000",
+                                            "FontSizeInPt": 11.0,
+                                            "FontName": "Times New Roman",
+                                            "Bold": false,
+                                            "Italic": false,
+                                            "TextAlign": "Left"
+                                        },
+                                        "Position": {
+                                            "PageNumber": 1,
+                                            "X": 128.0,
+                                            "Y": 618.9
+                                        },
+                                        "Size": {
+                                            "Width": 115.0,
+                                            "Height": 12.0
+                                        }
+                                    }
+                                }
+                            ],
+                            "GivenNameFields": [
+                                {
+                                    "ElementId": "Nome_c1af75d4-7dcb-73ac-cc79-374677cf3bbf",
+                                    "DocumentNumber": 1,
+                                    "FieldDefinition": {
+                                        "TextFormat": {
+                                            "TextColor": "#000000",
+                                            "FontSizeInPt": 11.0,
+                                            "FontName": "Times New Roman",
+                                            "Bold": false,
+                                            "Italic": false,
+                                            "TextAlign": "Left"
+                                        },
+                                        "Position": {
+                                            "PageNumber": 1,
+                                            "X": 129.0,
+                                            "Y": 689.9
+                                        },
+                                        "Size": {
+                                            "Width": 37.0,
+                                            "Height": 12.0
+                                        }
+                                    }
+                                }
+                            ],
+                            "SurnameFields": [
+                                {
+                                    "ElementId": "Cognome_1a2e5deb-f76b-44aa-e795-6571c94183bd",
+                                    "DocumentNumber": 1,
+                                    "FieldDefinition": {
+                                        "TextFormat": {
+                                            "TextColor": "#000000",
+                                            "FontSizeInPt": 11.0,
+                                            "FontName": "Times New Roman",
+                                            "Bold": false,
+                                            "Italic": false,
+                                            "TextAlign": "Left"
+                                        },
+                                        "Position": {
+                                            "PageNumber": 1,
+                                            "X": 129.0,
+                                            "Y": 666.9
+                                        },
+                                        "Size": {
+                                            "Width": 72.0,
+                                            "Height": 12.0
+                                        }
+                                    }
+                                }
+                            ],
+                            "DateFields": [
+                                {
+                                    "ElementId": "Data_ac50616f-5fc6-c8ab-3a1e-f9512639ff3f",
+                                    "DocumentNumber": 1,
+                                    "DateFormat": "dd/MM/yyyy",
+                                    "FieldDefinition": {
+                                        "TextFormat": {
+                                            "TextColor": "#000000",
+                                            "FontSizeInPt": 11.0,
+                                            "FontName": "Times New Roman",
+                                            "Bold": false,
+                                            "Italic": false,
+                                            "TextAlign": "Left"
+                                        },
+                                        "Position": {
+                                            "PageNumber": 2,
+                                            "X": 64.0,
+                                            "Y": 501.9
+                                        },
+                                        "Size": {
+                                            "Width": 59.0,
+                                            "Height": 12.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "ElementId": "Data_203c81fe-3dd3-0cf8-161b-4ca638fd2e2d",
+                                    "DocumentNumber": 1,
+                                    "DateFormat": "dd/MM/yyyy",
+                                    "FieldDefinition": {
+                                        "TextFormat": {
+                                            "TextColor": "#000000",
+                                            "FontSizeInPt": 11.0,
+                                            "FontName": "Times New Roman",
+                                            "Bold": false,
+                                            "Italic": false,
+                                            "TextAlign": "Left"
+                                        },
+                                        "Position": {
+                                            "PageNumber": 3,
+                                            "X": 59.0,
+                                            "Y": 557.9
+                                        },
+                                        "Size": {
+                                            "Width": 59.0,
+                                            "Height": 12.0
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "SignatureDataConfiguration": {
+                        "SmsOneTimePassword": {
+                            "PhoneNumber": "{{signercellphone}}"
+                        }
+                    },
+                    "SigningGroup": "1",
+                    "GeneralPoliciesOverrides": {
+                        "AllowSaveDocument": true,
+                        "AllowSaveAuditTrail": true,
+                        "AllowPrintDocument": true,
+                        "AllowAdhocPdfAttachments": false,
+                        "AllowRejectWorkstep": true,
+                        "AllowUndoLastAction": false
+                    }
+                }
+            },
+            "VisibilityOptions": [
+                {
+                    "DocumentNumber": 1,
+                    "IsHidden": false
+                }
+            ]
+        },
+        {
+            "Action": {
+                "SendCopy": {
+                    "RecipientConfiguration": {
+                        "ContactInformation": {
+                            "Email": "{{creatoremail}}",
+                            "GivenName": "{{creatorname}}",
+                            "Surname": "{{creatorsurname}}",
+                            "PhoneNumber": "{{creatorcellphone}}",
+                            "LanguageCode": "IT"
+                        },
+                        "NotificationChannel": "Email"
+                    },
+                    "CopyingGroup": "2"
+                }
+            },
+            "VisibilityOptions": [
+                {
+                    "DocumentNumber": 1,
+                    "IsHidden": false
+                }
+            ]
+        }
+    ],
+    "EmailConfiguration": {
+        "Subject": "{{emailsubject}}",
+        "Message": "Gentile #RecipientFirstName# #RecipientLastName#\n\n#PersonalMessage#\n\nla prego di firmare il documento #EnvelopeName#\n\nIl documento scadrà il #ExpirationDate#"
+    },
+    "ReminderConfiguration": {
+        "Enabled": true,
+        "FirstReminderInDays": 5,
+        "ReminderResendIntervalInDays": 3,
+        "BeforeExpirationInDays": 3
+    },
+    "ExpirationConfiguration": {
+        "ExpirationInSecondsAfterSending": 2419200
+    }
+}
